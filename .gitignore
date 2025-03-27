@@ -1,0 +1,5 @@
+node_modules
+firebase-debug.log
+# Ignorar archivos de configuración de Firebase
+.env
+.env.local

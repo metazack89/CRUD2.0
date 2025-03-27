@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es"> <!-- Cambié "en" por "es" para español -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Recomendación: Usa una ruta más estándar para el favicon -->
+  <link rel="icon" type="/public/logo.jpg" href="/favicon.jpg" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Añadí meta tags recomendados: -->
+  <meta name="description" content="Develop School" />
+  <meta name="theme-color" content="#000000" />
+
+  <title>Develop School</title>
+
+  <!-- Opcional: Preconexión para APIs si usas JSON Server en producción -->
+  <link rel="preconnect" href="https://your-api-domain.com" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Opcional: Polyfills para compatibilidad si es necesario -->
+  <script>
+    if (!window.Promise) {
+      document.write('<script src="https://cdn.polyfill.io/v3/polyfill.min.js"><\/script>');
+    }
+  </script>
+</body>
+
+</html>

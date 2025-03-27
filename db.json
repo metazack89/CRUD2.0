@@ -1,0 +1,64 @@
+{
+  "trainings": [
+    {
+      "title": "Introducción a React",
+      "description": "Fundamentos de React para principiantes",
+      "startDate": "2023-08-01",
+      "duration": "4 semanas",
+      "trainer": "Ana Martínez",
+      "location": "colombia",
+      "userId": "user1",
+      "updated_at": "2025-03-27T21:10:19.737Z",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "userId": "user2",
+      "title": "Node.js Avanzado",
+      "description": "Conceptos avanzados de Node y Express",
+      "startDate": "2023-09-05",
+      "duration": "6 semanas",
+      "trainer": "Carlos Rodríguez",
+      "created_at": "2023-07-20T14:30:00Z",
+      "updated_at": "2023-07-20T14:30:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "María González",
+      "email": "maria@example.com",
+      "role": "student"
+    },
+    {
+      "id": "user2",
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "9ad8",
+      "userName": "Carlos",
+      "lastName": "Ruiz",
+      "email": "Carlitos@example.com",
+      "password": "12345678",
+      "role": "user",
+      "country": "Col",
+      "phone": "3256987485",
+      "created_at": "2025-03-27T20:38:02.068Z",
+      "updated_at": "2025-03-27T20:38:02.068Z"
+    },
+    {
+      "id": "a3b9",
+      "userName": "Cristian",
+      "lastName": "Ortiz",
+      "email": "DcjStyles@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "country": "Col",
+      "phone": "3214569874",
+      "created_at": "2025-03-27T21:08:30.823Z",
+      "updated_at": "2025-03-27T21:08:30.823Z"
+    }
+  ]
+}

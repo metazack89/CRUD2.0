@@ -1,0 +1,376 @@
+body {
+  background: url('./assets/login20.png') no-repeat center center/cover;
+}
+
+  /* Styles LOGIN */
+  .login-page .login-background {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(2px) !important; 
+    
+  }
+  .title-login {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+    
+  }
+  /* Card styles */
+  .login-page .login-style {
+    background: rgba(243, 243, 243, 0.594);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(247, 247, 247, 0.323);
+  }
+  
+  /* Card header styles */
+  .login-page .card-header {
+    background: none;
+    border: none;
+  }
+  
+  .login-page .card-header h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.9); 
+  }
+  
+  /* Form styles */
+  .login-page form {
+    margin: 20px 0;
+  }
+  
+  .login-page .form-label {
+    font-weight: bold;
+  }
+  
+  .login-page .form-control {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.451);
+    color: #000000;
+  }
+  
+  .login-page .form-control:focus {
+    background: rgba(237, 232, 232, 0.884);
+    box-shadow: none;
+  }
+  
+  .login-page .btn-primary {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+  }
+  
+  .login-page .btn-primary:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .login-page .form-check-input {
+    margin-top: 0.3rem;
+  }
+  
+  .login-page .text-white {
+    color: white;
+  }
+  
+  /* Link styles */
+  .login-page a {
+    text-decoration: none;
+  }
+  
+  .login-page a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  /**********************************************************************/
+
+/* styles.css CREATEUSER */
+.create-user-bg {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(2px) !important; 
+}
+
+.create-user-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-create-user{
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+
+/**********************************************************************/
+
+/* styles.css TRAINING USERS */
+.training-background {
+  background-image: url('./assets/trainingUsers.webp'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center;
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.training-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.175); /* Fondo semi-transparente y oscuro */
+  backdrop-filter: blur(2px); /* desenfoque al fondo */
+  z-index: 1; /* overlay esté detrás del contenido */
+}
+
+.training-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.422); 
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.training-card {
+  background-color: rgba(255, 255, 255, 0.748); 
+  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.427);
+  color: #090909; 
+  max-width: 600px; 
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+}
+
+.training-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.training-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: justify; 
+}
+
+.training-card .btn {
+  margin-top: 10px;
+}
+
+.card-img-perfil {
+  width: auto; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/**********************************************************************/
+
+/* APP CONTEINER PRINCIPAL APP PARA MANTENER FOOTER*/
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* DIV del Footer */
+.content {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40; 
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+/**********************************************************************/
+
+
+/* STYLES HOME */
+.home-container{
+  backdrop-filter: blur(8px) !important; 
+}
+
+.home-header {
+  background: rgba(241, 236, 236, 0.242); /* Fondo semi-transparente */
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.96); 
+
+}
+
+.home-card {
+  background: rgba(184, 181, 225, 0.382); /* Fondo semi-transparente */
+  border: none; 
+}
+
+.home-card-img {
+  object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+  height: 200px; 
+}
+
+.home-card .card-footer {
+  background: transparent; /* Fondo transparente para el pie de la tarjeta */
+  border-top: none;
+}
+
+.card-title{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.home-card .card-text {
+  text-align: justify; 
+}
+
+
+
+/**********************************************************************/
+
+
+
+
+
+/* CREATE TRAINING*/
+.create-training {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9d5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.create-training .card-header {
+  background-color: #0b54a1; 
+  color: white; 
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+}
+
+.create-training h3 {
+  margin: 0;
+}
+
+.create-training .card-body {
+  padding: 20px;
+}
+
+.create-training .form-label {
+  font-weight: bold;
+}
+
+
+.create-training .btn-primary .btn-danger {
+  margin-top: 10px;
+}
+
+
+
+
+/**********************************************************************/
+
+/*STYLES EDITAR CAPACITACION*/
+.editTraining {
+  max-width: 700px;
+  border: 2px solid #007bff;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 20px; 
+  background-color: #f8f9fa; 
+}
+
+.editTraining .card-header {
+  background-color: #007bff; 
+  color: #fff; 
+  text-align: center; 
+  font-weight: bold; 
+}
+
+.editTraining .card-body {
+  padding: 20px; 
+}
+
+.editTraining .form-label {
+  font-weight: bold; 
+}
+
+.editTraining .form-control {
+  border-radius: 10px; /* Esquinas redondeadas para los campos de entrada */
+}
+
+.editTraining .btn {
+  margin-top: 10px;
+}
+
+
+/**********************************************************************/
+
+/*STYLES EDITAR USUARIO. PANEL ADMIN*/
+.editUser {
+  max-width: 600px; 
+  border: 2px solid #007bff; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.editUser .card-header {
+  background-color: #007bff; 
+  color: #fff; 
+  text-align: center; 
+  font-weight: bold; 
+}
+
+.editUser .card-body {
+  padding: 20px; 
+}
+
+.editUser .form-label {
+  font-weight: bold; /* Etiquetas en negrita */
+}
+
+.editUser .form-control {
+  border-radius: 10px;
+}
+
+.editUser .btn {
+  margin-top: 10px; 
+}
+
+
+
+
+
